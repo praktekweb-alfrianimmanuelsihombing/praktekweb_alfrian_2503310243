@@ -1,145 +1,142 @@
-<!doctype html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Register</title>
+    <title>detikNews</title>
+    <link rel="shortcut icon" href="detiknews.png" type="image/x-icon" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style/style.css">
   </head>
+
   <body>
-    <form action="" enctype="multipart/form-data">
-      <table border="1" cellpadding="6">
-        <h1>Halaman Registrasi</h1>
-        <p>
-          Silahkan buat akun jika anda belum punya akses untuk login ke dalam
-          sistem kami
-        </p>
-        <tbody>
-          <tr>
-            <td>Nama Depan</td>
-            <td>:</td>
-            <td>
-              <input
-                type="firts_name"
-                placeholder="Silahkan isikan nama depan anda"
-              />
-            </td>
-          </tr>
-          <tr>
-            <td>Nama Tengah</td>
-            <td>:</td>
-            <td>
-              <input
-                type="middle_name"
-                placeholder="Silahkan isikan nama tengah anda (Optional)"
-              />
-            </td>
-          </tr>
-          <tr>
-            <td>Nama Belakang</td>
-            <td>:</td>
-            <td>
-              <input
-                type="last_name"
-                placeholder="Silahkan isikan nama Belakang"
-              />
-            </td>
-          </tr>
+    <h1 id="judulsatu" class="judulsatu">Judul Pertama Menggunakan H1</h1>
+    <h2 id="juduldua">Judul Kedua Menggunakan H2</h2>
+    <h3 id="judultiga">Judul Ketiga Menggunakan H3</h3>
+    <h4 id="judulempat">Judul keempat Menggunakan H4</h4>
+    <h5 id="judullima">Judul kelima Menggunakan H5</h5>
+    <h6 id="judulenam">Judul Keenam Menggunakan H6</h6>
 
-          <tr>
-            <td>Email</td>
-            <td>:</td>
-            <td>
-              <input type="mail" placeholder="Silahkan isikan email" />
-            </td>
-          </tr>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus
+      necessitatibus quibusdam facilis eaque culpa dolorum quisquam! Aspernatur
+      ab cumque ducimus quas laborum facere non, iste illo, illum, omnis amet
+      vitae! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Consectetur quisquam explicabo, deserunt, voluptatem ad dolores adipisci,
+      libero sapiente esse dolorem nostrum vero asperiores ab reiciendis
+      pariatur dicta perferendis! Adipisci, ut.
+    </p>
 
-          <tr>
-            <td>Jenis Kelamin</td>
-            <td>:</td>
-            <td>
-              <div class="gender">
-                <input
-                  type="radio"
-                  name="gender"
-                  id="gender"
-                  value="Laki-Laki"
-                />
-                <label for="">Laki-Laki</label>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur odio
+      adipisci nobis? Adipisci unde consequuntur quam nesciunt autem eos
+      mollitia quod incidunt iste culpa, illum totam. Officiis pariatur
+      voluptates debitis.
+    </p>
 
-                <input
-                  type="radio"
-                  name="gender"
-                  id="gender"
-                  value="Perempuan"
-                />
-                <label for="">Perempuan</label>
-              </div>
-            </td>
-          </tr>
+    <div class="nav">
+      <ul class="home">
+        <li>Beranda</li>
+      </ul>
+      <ul class="sub-nav">
+        <li class="subprofile">
+          Profile
+          <ul class="submenu">
+            <li>Sambutan Rektor</li>
+            <li>Sejarah Universitas</li>
+            <li>Visi Misi</li>
+            <li>Struktur Organisasi</li>
+          </ul>
+        </li>
+        <li>Fakultas</li>
+        <li>Mitra</li>
+        <li>Berita</li>
+        <li>
+          Layanan
+          <ul class="submenu">
+            <li>Siakad</li>
+            <li>eHIRIS</li>
+            <li>eLibrary</li>
+          </ul>
+        </li>
 
-          <tr>
-            <td>Tempat/Tgl.Lahir</td>
-            <td>:</td>
-            <td>
-              <input
-                type="text"
-                name="tempat_lahir"
-                placeholder="Tempat Lahit"
-              />
+        <li>
+          <a href="#"" class="pmb">PMB</a>
+        </li>
+        <li>
+          <a href="#" class="cta">Hubungi Kami</a>
+        </li>
+      </ul>
 
-              <input
-                type="week"
-                name="tgl_lahir"
-                placeholder="Pilih Tanggal Lahirs"
-              />
-            </td>
-          </tr>
+      <ul class="authentication">
+        <li>
+          <a href="authentication/login.html"" class="login">Login</a>
+        </li>
+        <li>
+          <a href="/authentication/register.html" class="register">Register</a>
+        </li>
+      </ul>
+    </div>
 
-          <tr>
-            <td>No. Telp</td>
-            <td>:</td>
-            <td>
-              <input type="text" placeholder="Silahkan isikan No.Telp" />
-            </td>
-          </tr>
 
-          <tr>
-            <td>Alamat</td>
-            <td>:</td>
-            <td>
-              <textarea
-                name=""
-                id=""
-                cols="60"
-                rows="5"
-                placeholder="Silahkan isikan alamat anda"
-              ></textarea>
-            </td>
-          </tr>
+    <!-- contoh penggunakan ol default-->
+    <ol>
+      <li>Meja</li>
+      <li>Kursi</li>
+      <li>Buku</li>
+      <li>Penggaris</li>
+      <li>Pulpen</li>
+    </ol>
 
-          <tr>
-            <td>Foto Profile</td>
-            <td>:</td>
-            <td>
-              <input
-                type="file"
-                accept=".png"
-                placeholder="Silahkan upload foto profile"
-              />
-            </td>
-          </tr>
-        </tbody>
+    <!-- contoh penggunakan ol romawi-->
+     <ol type="I">
+      <li>Meja</li>
+      <li>Kursi</li>
+      <li>Buku</li>
+      <li>Penggaris</li>
+      <li>Pulpen</li>
+    </ol>
+   
+    <!-- contoh penggunakan ol abjad-->
+    <ol type="a">
+      <li>Meja</li>
+      <li>Kursi</li>
+      <li>Buku</li>
+      <li>Penggaris</li>
+      <li>Pulpen</li>
+    </ol>
 
-        <tfoot>
-          <tr>
-            <td colspan="3">
-              <a href="/">Kembali</a>
-              <button type="reset">Batal</button>
-              <button type="submit">Register</button>
-            </td>
-          </tr>
-        </tfoot>
-      </table>
-    </form>
+    <table border="1">
+      <thead>
+        <th>No</th>
+        <th>NIM</th>
+        <th>Nama Mahasiswa</th>
+        <th>Jurusan</th>
+        <th>Alamat</th>
+        <th>No.Telp</th>
+        <th></th>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>872356827</td>
+          <td>Wijaya Santoso</td>
+          <td>Teknik Informatika</td>
+          <td>Jl. Sunggal No.45d</td>
+          <td>+6287889900</td>
+          <td>
+            <a href="">Edit</a> |
+            <a href="">Detail</a> |
+            <a href="">Hapus</a>
+          </td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+
+      </tfoot>
+    </table>
   </body>
 </html>
